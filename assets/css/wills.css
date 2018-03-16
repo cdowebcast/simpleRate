@@ -1,0 +1,65 @@
+.dvdCover {
+  width:100%;
+  text-decoration:none;
+  position:relative;
+  display:block;
+  border:1px solid #666;
+  padding:3px;
+  margin-right:5px;
+  float:left;
+}
+
+a.dvdCover span.ThumbsUpIcon{
+  visibility:visible;
+  position:absolute;
+  left:80%;
+  top:1%;
+  filter:alpha(opacity=80);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+
+a.dvdCover span.ThumbsUpTotal{
+  visibility:visible;
+  position:absolute;
+  left:40%;
+  top:1%;
+  font-weight: bold;
+  font-size: 24.5px;
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+
+a.dvdCover span.ThumbsDownIcon{
+  visibility:visible;
+  position:absolute;
+  left:1%;
+  top:85%;
+  filter:alpha(opacity=80);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+a.dvdCover span.ThumbsDownTotal{
+  visibility:visible;
+  position:absolute;
+  left:20%;
+  top:85%;
+  font-weight: bold;
+  font-size: 24.5px;
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+
+
+a.dvdCover:hover span.ThumbsUpIcon{
+  visibility:visible;
+}
+
